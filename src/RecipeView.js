@@ -1,5 +1,6 @@
 import React from "react";
 function RecipeView({recipe, deleteRecipe}) {
+  console.log(deleteRecipe);
   const {name, cuisine, photo, ingredients, preparation} = recipe;
 
   return(
